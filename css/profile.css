@@ -1,0 +1,65 @@
+
+
+.profile-container {
+    max-width: 600px;
+    padding: 20px;
+    background-color: #343a40;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.profile-icon {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    position: relative;
+    top: -10px;
+}
+
+.table {
+    color: #f8f9fa;
+    background-color: #343a40;
+    border-radius: 10px;
+}
+
+.table th, .table td {
+    background-color: #343a40 !important;
+    border-color: #495057;
+    color: #f8f9fa !important;
+    padding: 12px;
+    font-size: 1rem;
+}
+
+.table th {
+    font-weight: bold;
+    text-align: left;
+    width: 40%;
+}
+
+.table td {
+    text-align: left;
+    font-weight: 400;
+}
+
+.d-flex.align-items-center {
+    justify-content: center;
+}
+.custom-header {
+    background-color: #2c2f33;
+    padding: 10px 20px;
+}
+
+.custom-header .text-end {
+    margin-right: 20px;
+}
+
+.custom-header .nav {
+    margin-left: 20px;
+}
