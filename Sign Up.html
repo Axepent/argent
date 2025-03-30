@@ -31,6 +31,8 @@
 
 </head>
 
+<script type="module" src="js/main.js"></script>
+
 <body class="d-flex align-items-center py-4">
     <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
         <symbol id="check2" viewBox="0 0 16 16">
@@ -40,7 +42,7 @@
 
 
     <main class="form-signup">
-        <form>
+        <form id="signup-form">
             <div class="d-flex align-items-center mb-3">
                 <img src="Images/logo.png" alt="logo" width="72" height="72" class="me-2">
                 <h1 class="h3 fw-normal mb-0">Sign Up</h1>
@@ -71,7 +73,7 @@
                 <label class="dob-label">Date of Birth</label>
                 <div class="row g-2">
                     <div class="col">
-                        <select class="form-select">
+                        <select class="form-select" id="dob-day">
                             <option selected disabled>Day</option>
                             <script>
                                 for (let i = 1; i <= 31; i++) {
@@ -81,7 +83,7 @@
                         </select>
                     </div>
                     <div class="col">
-                        <select class="form-select">
+                        <select class="form-select" id="dob-month">
                             <option selected disabled>Month</option>
                             <option value="1">January</option>
                             <option value="2">February</option>
@@ -98,7 +100,7 @@
                         </select>
                     </div>
                     <div class="col">
-                        <select class="form-select">
+                        <select class="form-select" id="dob-year">
                             <option selected disabled>Year</option>
                             <script>
                                 let currentYear = new Date().getFullYear();
